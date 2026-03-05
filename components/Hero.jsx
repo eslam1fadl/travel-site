@@ -18,7 +18,7 @@ const Hero = () => {
             transition={{ delay: 0.3 }}
             className="inline-block my-4 px-4 py-1 text-sm rounded-full bg-sky-100 text-sky-700"
           >
-            Welcome to Nomadica
+            Welcome to Globetrek
           </motion.span>
 
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">

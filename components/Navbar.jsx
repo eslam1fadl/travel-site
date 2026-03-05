@@ -19,7 +19,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-sky-600">
-          🌍 Nomadica
+          🌍 Globetrek
         </Link>
 
         {/* Desktop Menu */}

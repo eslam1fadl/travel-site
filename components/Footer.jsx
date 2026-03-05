@@ -14,7 +14,7 @@ const Footer = () => {
           whileInView={{ opacity: 1, y: 0 }}
         >
           <h2 className="text-2xl font-bold text-white">
-            Nomadica <span className="text-sky-500">Travel</span>
+            Globetrek <span className="text-sky-500">Travel</span>
           </h2>
 
           <p className="text-sm text-gray-400 mt-4 max-w-xs">
@@ -44,7 +44,7 @@ const Footer = () => {
         >
           <h3 className="text-white font-semibold mb-4">Company</h3>
           <ul className="space-y-2 text-sm">
-            <li><Link href="#">About Nomadica</Link></li>
+            <li><Link href="#">About Globetrek</Link></li>
             <li><Link href="#">Our Mission</Link></li>
             <li><Link href="#">Careers</Link></li>
             <li><Link href="#">Support</Link></li>
@@ -78,7 +78,7 @@ const Footer = () => {
 
       {/* Bottom */}
       <div className="mt-12 border-t border-gray-800 pt-6 text-center text-sm text-gray-500 space-y-2">
-  <p>© {new Date().getFullYear()} Nomadica Travel. All rights reserved.</p>
+  <p>© {new Date().getFullYear()} Globetrek Travel. All rights reserved.</p>
   <p>
     Contact:{" "}
     <a href="mailto:eslam.fadl2338@gmail.com" className="text-sky-600 hover:underline">
