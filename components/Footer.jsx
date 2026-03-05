@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-6 grid gap-12 md:grid-cols-4">
-        
+
         {/* Logo */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -77,9 +77,16 @@ const Footer = () => {
       </div>
 
       {/* Bottom */}
-      <div className="mt-12 border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Nomadica Travel. All rights reserved.
-      </div>
+      <div className="mt-12 border-t border-gray-800 pt-6 text-center text-sm text-gray-500 space-y-2">
+  <p>© {new Date().getFullYear()} Nomadica Travel. All rights reserved.</p>
+  <p>
+    Contact:{" "}
+    <a href="mailto:eslam.fadl2338@gmail.com" className="text-sky-600 hover:underline">
+      eslam.fadl2338@gmail.com
+    </a>
+  </p>
+</div>
+
     </footer>
   );
 };

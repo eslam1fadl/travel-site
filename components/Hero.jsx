@@ -33,10 +33,10 @@ const Hero = () => {
           </p>
 
           <div className=" mt-10 flex flex-wrap gap-4">
-            <button className="bg-sky-600 hover:bg-sky-700 text-white px-8 py-3 rounded-full transition">
+            <button className="bg-sky-600 hover:bg-sky-700 text-white px-8 py-3 rounded-full transition cursor-pointer">
               Explore Now
             </button>
-            <button className="border border-sky-600 text-sky-600 px-8 py-3 rounded-full hover:bg-sky-50 transition">
+            <button className="border border-sky-600 text-sky-600 px-8 py-3 rounded-full hover:bg-sky-50 transition cursor-pointer">
               Learn More
             </button>
           </div>
