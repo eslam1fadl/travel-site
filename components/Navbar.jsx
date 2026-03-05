@@ -24,7 +24,7 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8 text-base font-medium text-gray-700">
-          <Link href="#home" className="hover:text-sky-600 transition-colors">
+          <Link href="/" className="hover:text-sky-600 transition-colors">
             Home
           </Link>
           <Link href="#Destinations" className="hover:text-sky-600 transition-colors">
